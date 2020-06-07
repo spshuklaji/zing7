@@ -26,6 +26,8 @@ jobs:
         java-version: ${{ matrix.version }}
     - name: export LD_DEBUG
       run: |
-        export LD_DEBUG=all
-        echo $LD_DEBUG
-        java -version
+        bash  
+
+      #export LD_DEBUG=all
+        #echo $LD_DEBUG
+        #java -version
